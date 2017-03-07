@@ -114,8 +114,7 @@
 	- Vendor 第三方类库<br>   
 - Simplify 框架入口文件
 ####2）公共方法：
-
-	getOS()：获取当前服务器的操作系统
+	`getOS()：获取当前服务器的操作系统
 	getIp()：获取客户端的IP
 	isMobileRequest()：判断是否为移动端请求
 	timeAgo($time)：判断$time具体现在多长时间
@@ -130,7 +129,7 @@
 	decodeUnicode（$str):unicode解码
 	postRequest($api,$data=array(),$post=true,$send="json",$retJson=true,$timeout=30)：发起一个post请求到指定接口
 	D($modelName):创建模型对象
-	C(fileName,,$dir=null):引入配置文件，默认在配置文件目录
+	C(fileName,,$dir=null):引入配置文件，默认在配置文件目录`
 
 ####3）数据库操作：
 	field（）:所需要获取字段，无参表示获取所有
