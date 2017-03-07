@@ -114,22 +114,22 @@
 	- Vendor 第三方类库<br>   
 - Simplify 框架入口文件
 ####2）公共方法：
-	`getOS()：获取当前服务器的操作系统
-	getIp()：获取客户端的IP
-	isMobileRequest()：判断是否为移动端请求
-	timeAgo($time)：判断$time具体现在多长时间
-	getUUID()：获取唯一id
-	cutStr($string, $sublen, $start = 0, $code = 'UTF-8'):汉字截取
-	toSize($bytes):文件尺寸转换，将大小将字节转为各种单位大小
-	writeLog($type="access",$log)；写访问日志和错误日志
-	validateSign($param, $sign)：$param,需要加密的字符串;$sign, 第三方已经机密好的用来比对的字串
-	xmlToArray（$xml）:xml转为数组
-	arrayToXml（$arr):数组转为xml
-	encodeUnicode($str)：unicode编码
-	decodeUnicode（$str):unicode解码
-	postRequest($api,$data=array(),$post=true,$send="json",$retJson=true,$timeout=30)：发起一个post请求到指定接口
-	D($modelName):创建模型对象
-	C(fileName,,$dir=null):引入配置文件，默认在配置文件目录`
+    getOS()：获取当前服务器的操作系统
+    getIp()：获取客户端的IP
+    isMobileRequest()：判断是否为移动端请求
+    timeAgo($time)：判断$time具体现在多长时间
+    getUUID()：获取唯一id
+    cutStr($string, $sublen, $start = 0, $code = 'UTF-8'):汉字截取
+    toSize($bytes):文件尺寸转换，将大小将字节转为各种单位大小
+    writeLog($type="access",$log)；写访问日志和错误日志
+    validateSign($param, $sign)：$param,需要加密的字符串;$sign, 第三方已经机密好的用来比对的字串
+    xmlToArray（$xml）:xml转为数组
+    arrayToXml（$arr):数组转为xml
+    encodeUnicode($str)：unicode编码
+    decodeUnicode（$str):unicode解码
+    postRequest($api,$data=array(),$post=true,$send="json",$retJson=true,$timeout=30)：发起一个post请求到指定接口
+    D($modelName):创建模型对象
+    C(fileName,,$dir=null):引入配置文件，默认在配置文件目录
 
 ####3）数据库操作：
 	field（）:所需要获取字段，无参表示获取所有
