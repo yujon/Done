@@ -44,6 +44,7 @@
 - index.php项目入口<br>
 
 >以上文件目录为默认设定的，可通过入口文件定义修改（define)以下常量参数从而改变生成的项目结构<br>
+
 	APP_NAME：应用目录名称
 	APP_SKIN_NAME：应用皮肤名称
 	APP_TPL_PREFIX：y应用视图后缀，默认为.tpl
@@ -113,6 +114,7 @@
 	- Vendor 第三方类库<br>   
 - Simplify 框架入口文件
 ####2）公共方法：
+
 	getOS()：获取当前服务器的操作系统
 	getIp()：获取客户端的IP
 	isMobileRequest()：判断是否为移动端请求
