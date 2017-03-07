@@ -113,6 +113,7 @@
 		Structure.class.php:项目结构部署类，用于自动创建所需要的项目目录和文件结构。
 	- Vendor 第三方类库<br>   
 - Simplify 框架入口文件
+
 ####2）公共方法：
     getOS()：获取当前服务器的操作系统
     getIp()：获取客户端的IP
