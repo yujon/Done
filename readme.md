@@ -89,7 +89,7 @@
 7. 模板引擎使用Smarty,不了解可自定查找学习
 
 ### 2.框架说明：
-####1）目录结构
+#### 1）目录结构
 <center>![](http://i.imgur.com/1737f6k.png)</center>
 
 - Common 公共方法目录
